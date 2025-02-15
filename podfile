@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'FlashLook' do
+    pod 'Masonry'
+    pod 'AFNetworking'
+    pod 'SDWebImage'
+    pod 'YYModel'
+    pod 'LookinServer', :configurations => ['Debug']
+end
+
